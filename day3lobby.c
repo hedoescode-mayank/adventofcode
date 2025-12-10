@@ -5,7 +5,7 @@
 #define MAX_LINE 1024  // maximum length of a line in the file
 
 int main(void) {
-    FILE *fp = fopen("jk.txt", "r");  // change the file name if needed
+    FILE *fp = fopen("jk.txt", "r");  // change the file name
     if (fp == NULL) {
         perror("Error opening input.txt");
         return 1;
