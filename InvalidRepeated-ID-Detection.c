@@ -51,7 +51,7 @@ i128 solve_range(i128 A, i128 B) {
 
     return sum;
 }
-
+//
 int main() {
     FILE *fp = fopen("ir.txt", "r");
     if (!fp) {
